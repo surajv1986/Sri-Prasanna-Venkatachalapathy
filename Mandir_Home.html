@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+<link rel="stylesheet" href="bower_components/flexslider/flexslider.css">
+<link rel="stylesheet" href="CSS/Mandir.css">
+    
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/flexslider/jquery.flexslider.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="bower_components/angular-flexslider/angular-flexslider.js"></script>
+
+<html ng-app="SriPrasannaVenkatachalapathy"> 
+
+ <div class="Header-Image">
+     <img src="Images/spiritual-om-sign-icon.jpg">
+ </div>     
+<div class="col-md-1">
+<button id="Aboutus" ui-sref="About">About Us</button> 
+</br>    
+<button id="Temple Timings" ui-sref="Timings">Temple Timings</button>
+</br>    
+<button id="aarti" ui-sref="AartiTimings">Aarti Timings</button>
+</br>
+<button id="Donations">Online Donations</button>  
+</br>
+<button id="Events" ui-sref="Events">Temple Events</button>
+</div> 
+<div class="col-md-10" ui-view="">
+        
+ </div>
+    
+</div>    
+    
+<script src="src/Application.js"></script>
+<script src="src/SriNarayanaCtrl.js"></script>
+
+    
+    
+    
+    
+</html>    
+</html>

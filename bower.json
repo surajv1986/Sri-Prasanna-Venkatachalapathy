@@ -1,0 +1,30 @@
+{
+  "name": "Sri Prasanna Venkatachalapathy Website",
+  "version": "1.0.0",
+  "authors": [
+    "Adiyen Sri Narayanadasan Suraj V"
+  ],
+  "description": "A Temple Website for Prasanna Venkatachalapathy",
+  "main": "Mandir_Home.html",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "Sri",
+    "Prasanna",
+    "Venkatachalapathy"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "resolutions": {
+    "angular": "~1.3"
+  }
+}
