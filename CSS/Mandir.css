@@ -82,14 +82,20 @@ button
   opacity:1;
 }
 
-.h1
+h1
 {
   text-align: center;
   color:red;
 }
 
-.h2
+h2
 {
   text-align: center;
-   color:pink; 
+   color:green; 
+}
+
+#cardtype
+{
+   align-items:center;
+
 }

@@ -26,5 +26,12 @@ SriVenkatachalapathy.config(['$stateProvider', '$urlRouterProvider',
 		url: '/Events',
 		templateUrl:'Partials/Events.html'
 	});
+	$stateProvider.state({
+		name: 'Donations',
+		url: '/Donations',
+		templateUrl:'Partials/Donations.html',
+		controller: 'SriLakshmiCtrl'
+	});
+	
 	 $urlRouterProvider.otherwise('Home');
 }]);     
