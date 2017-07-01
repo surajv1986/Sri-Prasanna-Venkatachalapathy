@@ -5,7 +5,7 @@
     align-content:center; 
 }
 
-button
+.Menu
 {
 
     height: 100px;
@@ -98,4 +98,9 @@ h2
 {
    align-items:center;
 
+}
+.carddet
+{
+  text-align: center;
+  
 }
